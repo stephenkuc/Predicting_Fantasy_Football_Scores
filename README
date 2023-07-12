@@ -4,7 +4,7 @@ Utilizing data from past years, I want to predict the next year's fantasy result
 
 It is my goal to create notebooks to easily be able to predict results for an upcoming season, as long as data is available for the previous 2.
 
-Utilizing data from sources like Kaggle, web-scraping on football statistic sites like profootballreference.com, and the API nfl_data_py that connects with nflfastR, nfldata, dynastyprocess, and Draft Scout, I will create models to predict the next year's fantasy results.
+Utilizing data from sources like Kaggle, web-scraping on football statistic sites like profootballreference.com and fantasyfootballcalculator.com, and the API nfl_data_py that connects with nflfastR, nfldata, dynastyprocess, and Draft Scout, I will create models to predict the next year's fantasy results.
 
 This will begin smaller, using fantasy data and roster data, to predict results. However, I am eager to explore the impact of certain statistics, like team or teammate play, on a player's production both from an analytical and predective standpoint.
 
