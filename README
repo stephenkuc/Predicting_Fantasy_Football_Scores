@@ -8,6 +8,8 @@ Utilizing data from sources like Kaggle, web-scraping on football statistic site
 
 This will begin smaller, using fantasy data and roster data, to predict results. However, I am eager to explore the impact of certain statistics, like team or teammate play, on a player's production both from an analytical and predective standpoint.
 
+As of 7/12/23, several datasets were brought in, including adp ranking heading into the year, next gen stats, qbr stats, team stats, and more.
+
 After plenty of cleaning, merging, and exploring the data, I've begun a Tableau Dashboard to easily visualize this data and begin to notice trends:
 
 QBs (created 7/3/23): https://public.tableau.com/app/profile/stephen.kuc/viz/FantasyFootballVisualizations/QBStatsandFantasyPoints 
