@@ -8,6 +8,12 @@ Utilizing data from sources like Kaggle, web-scraping on football statistic site
 
 This will begin smaller, using fantasy data and roster data, to predict results. However, I am eager to explore the impact of certain statistics, like team or teammate play, on a player's production both from an analytical and predective standpoint.
 
+As of 7/20/23, 6 main dataframes are used for either analysis or prediction: starter_df, ff_tall, qb_wide, rb_wide, wr_wide, and te_wide. 
+
+  - starter_df contains the players that ranked as in the top 12 as a QB or TE, top 24 as an RB and top 36 as a WR, with a row for each season and each player. 
+  - ff_tall contains players that played in at least 6 games each season AND also scored in the top 50% of all players over all seasons (~33 points). The purpose for these two are for more holistic data analysis and visualization of fantasy.
+  - Each position 'wide' (i.e. rb_wide) contains a row per player that contains their stats from 2019 - 2022. The purpose of this DF is to model off of it and utilize a players previous year's stats to predict how they will do the following season.
+
 As of 7/12/23, several datasets were brought in, including adp ranking heading into the year, next gen stats, qbr stats, team stats, and more.
 
 After plenty of cleaning, merging, and exploring the data, I've begun a Tableau Dashboard to easily visualize this data and begin to notice trends:
