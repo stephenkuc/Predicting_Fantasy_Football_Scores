@@ -1,12 +1,16 @@
 This is the readme file for this Fantasy Football project.
 
+There are a few tasks I'd like to complete with this project. First, it's to analyze and understand what factors may help a player better succeed from a fantasy perspective. There are many hypotheses I have, and I'm excited to explore these and perhaps discover hidden relationships. With 
+
+**Yearly Predictions with Supervised Learning**
+
 Utilizing data from past years, I want to predict the next year's fantasy results. As an avid player, I'm always wondering and thinking of ways to possibly improve my teams and strategies for each year.
 
 It is my goal to create notebooks to easily be able to predict results for an upcoming season, as long as data is available for the previous 2.
 
 Utilizing data from sources like Kaggle, web-scraping on football statistic sites like profootballreference.com and fantasyfootballcalculator.com, and the API nfl_data_py that connects with nflfastR, nfldata, dynastyprocess, and Draft Scout, I will create models to predict the next year's fantasy results.
 
-This will begin smaller, using fantasy data and roster data, to predict results. However, I am eager to explore the impact of certain statistics, like team or teammate play, on a player's production both from an analytical and predective standpoint.
+This had begun smaller, using fantasy data and roster data, to predict results. However, there is plenty of data from next_gen_stats and the possibility of feature engineering to derive features that could be much more meaningful. A few in particular I'd like to create are a player's current team's offense ranking of the prior year (at least non-QBs I'd imagine would be affected positively here), and for a WR and TE, how his current QB played last year.
 
 As of 7/20/23, 6 main dataframes are used for either analysis or prediction: starter_df, ff_tall, qb_wide, rb_wide, wr_wide, and te_wide. 
 
@@ -17,8 +21,6 @@ As of 7/20/23, 6 main dataframes are used for either analysis or prediction: sta
 As of 7/12/23, several datasets were brought in, including adp ranking heading into the year, next gen stats, qbr stats, team stats, and more.
 
 After plenty of cleaning, merging, and exploring the data, I've begun a Tableau Dashboard to easily visualize this data and begin to notice trends:
-
-QBs (created 7/3/23): https://public.tableau.com/app/profile/stephen.kuc/viz/FantasyFootballVisualizations/QBStatsandFantasyPoints 
 
 If anyone reading this has any ideas or worked on similar projects, I'd love to connect and collaborate! 
 
